@@ -1,0 +1,17 @@
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.runtimeconfig.json
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

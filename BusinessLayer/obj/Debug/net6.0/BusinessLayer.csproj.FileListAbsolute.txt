@@ -17,3 +17,4 @@ C:\Users\mehmet\Desktop\Projelerim\Portfolyo\BusinessLayer\obj\Debug\net6.0\refi
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json

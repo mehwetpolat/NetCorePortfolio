@@ -12,3 +12,4 @@ C:\Users\mehmet\Desktop\Projelerim\Portfolyo\EntityLayer\obj\Debug\net6.0\refint
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache
 C:\Users\mehmet\Desktop\Projelerim\Portfolyo\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\Users\mehmet\Desktop\Projelerim\Portfolyo\EntityLayer\obj\Debug\net6.0\EntityLayer.sourcelink.json

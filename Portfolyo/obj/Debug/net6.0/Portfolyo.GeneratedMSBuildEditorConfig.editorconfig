@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mehmet\Desktop\Projelerim\Portfolyo\Portfolyo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/NavigationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmF2aWdhdGlvblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEhlYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbE5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNjcmlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialSideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNpZGVCYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,8 +118,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Skill/AddSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcQWRkU2tpbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Skill/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Skill/UpdateSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcVXBkYXRlU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/_ViewImports.cshtml]

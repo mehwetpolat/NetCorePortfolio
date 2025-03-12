@@ -1,8 +1,24 @@
-﻿
+﻿@model EntityLayer.Concrete.Feature
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Adminlayout.cshtml";
 }
 
-<h1>Burası Content Alanıdır</h1>
-
+<div class="card-header border-0">
+    <h3 class="mb-0">Öne Çıkan Güncelleme Sayfası</h3>
+</div>
+@using (Html.BeginForm("Index", "Feature", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.FeatureId)
+    <br />
+    <label>Başlık</label>
+    @Html.TextBoxFor(x => x.FeatureHeader, new { @class = "form-control" })
+    <br />
+    <label>Ad Soyad</label>
+    @Html.TextBoxFor(x => x.FeatureName, new { @class = "form-control" })
+    <br />
+    <label>Unvan</label>
+    @Html.TextBoxFor(x => x.FeatureTitle, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+}

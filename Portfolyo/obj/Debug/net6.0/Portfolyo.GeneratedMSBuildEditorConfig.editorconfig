@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmF2aWdhdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/NewSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmV3U2lkZUJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Admin/PartialFooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -130,8 +134,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmVhdHVyZUxpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/FeatureStatistics/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmVhdHVyZVN0YXRpc3RpY3NcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/LastProjects/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGFzdFByb2plY3RzXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/MessageList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVzc2FnZUxpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/PortfolioList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUG9ydGZvbGlvTGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/ProjectList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdExpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/SendMessage/Default.cshtml]
@@ -144,6 +164,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/SkillList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2tpbGxMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/StatisticDashBoard/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RhdGlzdGljRGFzaEJvYXJkXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/Components/TestimonialList/Default.cshtml]

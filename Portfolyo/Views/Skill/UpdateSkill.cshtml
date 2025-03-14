@@ -1,7 +1,7 @@
 ﻿@model EntityLayer.Concrete.Skill
 @{
     ViewData["Title"] = "UpdateSkill";
-    Layout = "~/Views/Shared/_Adminlayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
 
 <div class="card-header border-0">
@@ -9,13 +9,27 @@
 </div>
 @using (Html.BeginForm("UpdateSkill", "Skill", FormMethod.Post))
 {
-    @Html.HiddenFor(x => x.SkillId)
-    <br />
-    @Html.Label("Yetenek Başlığı")
-    @Html.TextBoxFor(x => x.SkillTitle, new { @class = "form-control" })
-    <br />
-    <label>Değer</label>
-    @Html.TextBoxFor(x => x.SkillValue, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-success">Güncelle</button>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yetenek Düzenleme Sayfası</h4>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Id</label>
+                        @Html.TextBoxFor(x => x.SkillId, new { @class = "form-control", @readonly = "readonly" })
+                    </div>
+                    <div class="form-group">
+                        <label>Başlık</label>
+                        @Html.TextBoxFor(x => x.SkillTitle, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Değer</label>
+                        @Html.TextBoxFor(x => x.SkillValue, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button class="btn btn-dark">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
 }

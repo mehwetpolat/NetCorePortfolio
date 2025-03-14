@@ -56,7 +56,7 @@ namespace Portfolyo.Controllers
         public IActionResult UpdateExperience(Experience experience)
         {
             experienceManager.TUpdate(experience);
-
+            
             return RedirectToAction("Index");
         }
     }

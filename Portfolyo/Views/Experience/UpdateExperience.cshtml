@@ -1,27 +1,40 @@
 ﻿@model EntityLayer.Concrete.Experience
 @{
     ViewData["Title"] = "UpdateExperience";
-    Layout = "~/Views/Shared/_Adminlayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
+   
+<div class="card-body">
+    <h4 class="card-title">Deneyim Güncelleme Sayfası</h4>
+    @using (Html.BeginForm("UpdateExperience", "Experience", FormMethod.Post))
+    {
+    
+        <form class="forms-sample">
+            <div class="form-group">
+                <label>ID</label>
+                @Html.TextBoxFor(x => x.ExperienceId, new { @class = "form-control", @readonly = "readonly"})
+            </div>
+            <div class="form-group">
 
-<div class="card-header border-0">
-    <h3 class="mb-0">Deneyim Güncelleme Sayfası</h3>
+                <label>Başlık</label>
+                @Html.TextBoxFor(x => x.ExperienceName, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Tarih</label>
+                @Html.TextBoxFor(x => x.ExperienceDate, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Görsel Yolu</label>
+                @Html.TextBoxFor(x => x.ExperienceImageUrl, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Açıklama</label>
+                @Html.TextAreaFor(x => x.ExperienceDesription, 6, 3, new { @class = "form-control" })
+            </div>
+            <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+            <button class="btn btn-dark">İptal</button>
+        </form>
+
+    
+    }
 </div>
-@using (Html.BeginForm("UpdateExperience", "Experience", FormMethod.Post))
-{
-    @Html.HiddenFor(x => x.ExperienceId)
-    <br />
-    @Html.Label("Deneyim Başlığı")
-    @Html.TextBoxFor(x => x.ExperienceName, new { @class = "form-control" })
-    <br />
-    <label>Tarih</label>
-    @Html.TextBoxFor(x => x.ExperienceDate, new { @class = "form-control" })
-    <br />
-    <label>Resim Yolu</label>
-    @Html.TextBoxFor(x => x.ExperienceImageUrl, new { @class = "form-control" })
-    <br />
-    <label>Açıklama</label>
-    @Html.TextBoxFor(x => x.ExperienceDesription, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-success">Güncelle</button>
-}

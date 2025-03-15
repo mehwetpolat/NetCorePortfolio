@@ -11,7 +11,7 @@ namespace EntityLayer.Concrete
     {
         [Key]
         public int ToDoListId { get; set; }
-        public string Contect { get; set; }
+        public string Content { get; set; }
         public bool Status { get; set; }
 
     }

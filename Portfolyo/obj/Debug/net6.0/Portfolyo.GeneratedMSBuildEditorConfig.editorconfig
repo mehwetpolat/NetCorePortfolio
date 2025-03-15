@@ -18,6 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mehmet\Desktop\Projelerim\Portfolyo\Portfolyo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX0hlYWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/_NavBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX05hdkJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX1NjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Areas/Writer/Views/Default/_SideBarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcV3JpdGVyXFZpZXdzXERlZmF1bHRcX1NpZGVCYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -200,6 +224,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Shared/_WriterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Xcml0ZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehmet/Desktop/Projelerim/Portfolyo/Portfolyo/Views/Skill/AddSkill.cshtml]

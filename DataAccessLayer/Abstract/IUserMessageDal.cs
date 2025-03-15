@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface ITestimonialDal : IGenericService<Testimonial>
+    public interface IUserMessageDal : IGenericService<UserMessage>
     {
+        public List<UserMessage> GetUserMessageWithUser();
     }
 }

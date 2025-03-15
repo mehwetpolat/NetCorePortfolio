@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IExperienceDal : IGenericService<Experience>
+    public interface IExperienceDal : IGenericDal<Experience>
     {
     }
 }

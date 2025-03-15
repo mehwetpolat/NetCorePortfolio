@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IFeatureDal : IGenericService<Feature>
+    public interface IFeatureDal : IGenericDal<Feature>
     {
     }
 }

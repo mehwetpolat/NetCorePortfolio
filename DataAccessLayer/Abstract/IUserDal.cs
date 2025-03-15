@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface IUserDal: IGenericService<User>
+    public interface IUserDal: IGenericDal<User>
     {
     }
 }

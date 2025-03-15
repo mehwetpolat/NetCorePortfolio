@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public interface ISocialMediaDal : IGenericService<SocialMedia>
+    public interface ISocialMediaDal : IGenericDal<SocialMedia>
     {
     }
 }

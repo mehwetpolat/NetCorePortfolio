@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class FeatureManager : IGenericService<Feature>
+    public class FeatureManager : Abstract.IGenericService<Feature>
     {
         IFeatureDal _featureDal;
 

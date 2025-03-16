@@ -1,0 +1,39 @@
+﻿@model EntityLayer.Concrete.Announcement
+@{
+    ViewData["Title"] = "AnnouncementDetails";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Duyurunun Detayları</h4>
+
+            <table class="table table-bordered">
+                <tr>
+                    <th>Başlık</th>
+                    <td>@Model.Title</td>
+                </tr>
+                <tr>
+                    <th>İçerik</th>
+                    <td>
+                        <div style="max-height: 4.5em; overflow: hidden; line-height: 1.5em; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                            @Model.Content
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Tarih</th>
+                    <td>@Model.Date</td>
+                </tr>
+                <tr>
+                    <th>Statüsü</th>
+                    <td>@Model.Status</td>
+                </tr>
+            </table>
+
+            <a href="/Writer/Default/Index" class="btn btn-primary">Geri Dön</a>
+        </div>
+    </div>
+</div>

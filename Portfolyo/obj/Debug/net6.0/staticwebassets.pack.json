@@ -16121,24 +16121,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\.gitattributes",
-      "PackagePath": "staticwebassets\\skydash\\.gitattributes"
-    },
-    {
-      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\.gitignore",
-      "PackagePath": "staticwebassets\\skydash\\.gitignore"
-    },
-    {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\CHANGELOG.md",
       "PackagePath": "staticwebassets\\skydash\\CHANGELOG.md"
     },
     {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\Gift Coupon - Skydash.jpg",
       "PackagePath": "staticwebassets\\skydash\\Gift Coupon - Skydash.jpg"
-    },
-    {
-      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\README.md",
-      "PackagePath": "staticwebassets\\skydash\\README.md"
     },
     {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\skydash\\css\\maps\\vertical-layout-light\\style.css.map",

@@ -421,6 +421,10 @@
       "PackagePath": "staticwebassets\\Template\\scripts\\purecounter.min.js"
     },
     {
+      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\abfe41f2-b77d-47bf-a3ce-0ca06efb8855.jpeg",
+      "PackagePath": "staticwebassets\\UserImages\\abfe41f2-b77d-47bf-a3ce-0ca06efb8855.jpeg"
+    },
+    {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\argon-dashboard-master\\.gitignore",
       "PackagePath": "staticwebassets\\argon-dashboard-master\\.gitignore"
     },

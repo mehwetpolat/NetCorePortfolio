@@ -4,6 +4,7 @@ using EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +18,7 @@ namespace BusinessLayer.Concrete
         {
             _announcementDal = announcementDal;
         }
+
 
         public void TAdd(Announcement t)
         {
@@ -36,6 +38,12 @@ namespace BusinessLayer.Concrete
         public List<Announcement> TGetList()
         {
             return _announcementDal.GetList();
+        }
+
+
+        public List<Announcement> TGetListByFilter()
+        {
+            throw new NotImplementedException();
         }
 
         public void TUpdate(Announcement t)

@@ -10,10 +10,6 @@ namespace Portfolyo.Controllers
         ServiceManager serviceManager = new ServiceManager(new EfServiceDal());
         public IActionResult Index()
         {
-            ViewBag.name = "Hizmet Listesi";
-            ViewBag.name1 = "Hizmetler";
-            ViewBag.name2 = "Hizmet Listesi";
-
             var values = serviceManager.TGetList();
             return View(values);
         }
@@ -22,9 +18,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult AddService()
         {
-            ViewBag.name = "Hizmet Ekleme";
-            ViewBag.name1 = "Hizmetler";
-            ViewBag.name2 = "Hizmet Ekleme";
             return View();
         }
         [HttpPost]
@@ -44,9 +37,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult UpdateService(int id)
         {
-            ViewBag.name = "Güncelleme";
-            ViewBag.name1 = "Hizmetler";
-            ViewBag.name2 = "Güncelleme";
             var value = serviceManager.TGetById(id);
             return View(value);
         }

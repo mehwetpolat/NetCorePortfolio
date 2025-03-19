@@ -11,10 +11,6 @@ namespace Portfolyo.Controllers
         ExperienceManager experienceManager = new ExperienceManager(new EfExperienceDal());
         public IActionResult Index()
         {
-            ViewBag.name = "Deneyim Listesi";
-            ViewBag.name1 = "Deneyim";
-            ViewBag.name2 = "Deneyim Listesi";
-
             var values = experienceManager.TGetList();
             return View(values);
         }
@@ -22,10 +18,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult AddExperience()
         {
-            ViewBag.name = "Deneyim Ekleme";
-            ViewBag.name1 = "Deneyim";
-            ViewBag.name2 = "Deneyim Ekleme";
-
             return View();
         }
         [HttpPost]
@@ -46,9 +38,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult UpdateExperience(int id)
         {
-            ViewBag.name = "Deneyim Güncelleme";
-            ViewBag.name1 = "Deneyim";
-            ViewBag.name2 = "Deneyim Güncelleme";
             var value = experienceManager.TGetById(id);
             return View(value);
         }

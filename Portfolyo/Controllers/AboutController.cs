@@ -12,10 +12,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            ViewBag.name = "Güncelleme";
-            ViewBag.name1 = "Hakkımda";
-            ViewBag.name2 = "Güncelleme";
-
             var value = aboutManager.TGetById(1);
             return View(value);
         }

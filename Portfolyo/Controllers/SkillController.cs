@@ -10,9 +10,6 @@ namespace Portfolyo.Controllers
         SkillManager skillManager = new SkillManager(new EfSkillDal());
         public IActionResult Index()
         {
-            ViewBag.name = "Yetenek Listesi";
-            ViewBag.name1 = "Yetenekler";
-            ViewBag.name2 = "Yetenek Listesi";
             var values = skillManager.TGetList();
             return View(values);
         }
@@ -20,9 +17,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult AddSkill()
         {
-            ViewBag.name = "Yetenek Ekleme";
-            ViewBag.name1 = "Yetenekler";
-            ViewBag.name2 = "Yetenek Ekleme";
             return View();
         }
         [HttpPost]
@@ -42,9 +36,6 @@ namespace Portfolyo.Controllers
         [HttpGet]
         public IActionResult UpdateSkill(int id)
         {
-            ViewBag.name = "Güncelleme";
-            ViewBag.name1 = "Yetenekler";
-            ViewBag.name2 = "Güncelleme";
             var value = skillManager.TGetById(id);
             return View(value);
         }

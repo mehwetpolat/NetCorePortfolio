@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Portfolyo.Areas.Writer.Models;
@@ -6,7 +7,10 @@ using System.Drawing.Text;
 
 namespace Portfolyo.Areas.Writer.Controllers
 {
+    
     [Area("Writer")]
+    [Authorize]
+    [Route("Writer/[controller]/[action]")]
     public class ProfileController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;
@@ -55,7 +59,7 @@ namespace Portfolyo.Areas.Writer.Controllers
             var result = await _userManager.UpdateAsync(user);
             if(result.Succeeded)
             {
-                return RedirectToAction("Index", "Default");
+                return RedirectToAction("Index", "Login");
             }
             return View();
         }

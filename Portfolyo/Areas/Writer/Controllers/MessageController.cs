@@ -2,12 +2,15 @@
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Portfolyo.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Authorize]
+    [Route("Writer/Message")]
     public class MessageController : Controller
     {
         WriterMessageManager writerMessageManager = new WriterMessageManager(new EfWriterMessageDal());
@@ -18,6 +21,8 @@ namespace Portfolyo.Areas.Writer.Controllers
             _userManager = userManager;
         }
 
+        [Route("")]
+        [Route("ReceiverMessage")]
         public async Task<IActionResult> ReceiverMessage(string p)
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -26,6 +31,8 @@ namespace Portfolyo.Areas.Writer.Controllers
             return View(messageList);
         }
 
+        [Route("")]
+        [Route("SenderMessage")]
         public async Task<IActionResult> SenderMessage(string p)
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -34,24 +41,32 @@ namespace Portfolyo.Areas.Writer.Controllers
             return View(messageList);
         }
 
+        [Route("MessageDetails/{id}")]
         public IActionResult MessageDetails(int id)
         {
             WriterMessage writerMessage = writerMessageManager.TGetById(id);
             return View(writerMessage);
         }
 
+        [Route("ReceiverMessageDetails/{id}")]
         public IActionResult ReceiverMessageDetails(int id)
         {
             WriterMessage writerMessage = writerMessageManager.TGetById(id);
             return View(writerMessage);
         }
 
+
         [HttpGet]
+        [Route("")]
+        [Route("SendMessage")]
         public IActionResult SendMessage()
         {
             return View();
         }
+
         [HttpPost]
+        [Route("")]
+        [Route("SendMessage")]
         public async Task<IActionResult> SendMessage(WriterMessage writerMessage)
         {
             var value = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -67,7 +82,7 @@ namespace Portfolyo.Areas.Writer.Controllers
             var userNameSurname = context.Users.Where(x => x.Email == writerMessage.Receiver).Select(y => y.Name + " " + y.Surname).FirstOrDefault();
             writerMessage.ReceiverName = userNameSurname;
             writerMessageManager.TAdd(writerMessage);
-            return RedirectToAction("SenderMessage", "Message");
+            return RedirectToAction("SenderMessage");
         }
     }
 }

@@ -5,7 +5,9 @@ using Portfolyo.Areas.Writer.Models;
 
 namespace Portfolyo.Areas.Writer.Controllers
 {
+
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class RegisterController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;

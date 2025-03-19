@@ -6,6 +6,7 @@ using Portfolyo.Areas.Writer.Models;
 namespace Portfolyo.Areas.Writer.Controllers
 {
     [Area("Writer")]
+    [Route("Writer/[controller]/[action]")]
     public class LoginController : Controller
     {
 
@@ -32,7 +33,7 @@ namespace Portfolyo.Areas.Writer.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Default");
+                    return RedirectToAction("Index", "Dashboard");
                 }
                 else
                 {
@@ -40,6 +41,12 @@ namespace Portfolyo.Areas.Writer.Controllers
                 }
             }
             return View();
+        }
+
+        public async Task<IActionResult> Logout(UserLoginViewModel p)
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Login");
         }
     }
 }

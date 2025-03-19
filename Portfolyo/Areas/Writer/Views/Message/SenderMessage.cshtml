@@ -22,29 +22,12 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
-                            @*  if (item.Status.Contains("Yeni"))
-                        {
-                        color = "badge badge-danger";
-                        }
-                        if (item.Status.Contains("Aktif"))
-                        {
-                        color = "badge badge-info";
-                        }
-                        if (item.Status.Contains("Bitti"))
-                        {
-                        color = "badge badge-success";
-                        }
-                        if (item.Status.Contains("Yapılmadı"))
-                        {
-                        color = "badge badge-warning";
-                        } *@
-
                             <tr>
                                 <th>@item.WriterId</th>
                                 <td>@item.Subject</td>
-                                <td>@item.Receiver</td>
+                                <td>@item.ReceiverName</td>
                                 <td>@(((DateTime)@item.Date).ToString("dd-MMM-yyyy"))</td>
-                                <td><a href="/Writer/Default/AnnouncementDetails/@item.WriterId" class="btn btn-outline-primary">Mesajı Gör</a></td>
+                                <td><a href="/Writer/Message/MessageDetails/@item.WriterId" class="btn btn-outline-primary">Mesajı Gör</a></td>
                             </tr>
                         }
                     </tbody>

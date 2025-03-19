@@ -30,8 +30,8 @@ namespace Portfolyo.Areas.Writer.Controllers
 
             // statistic
             Context context = new Context();
-            ViewBag.userCount = 0;
-            ViewBag.messageCount = 0;
+            ViewBag.userCount = context.Users.Count();
+            ViewBag.messageCount = context.WriterMessages.Where(x => x.Receiver == values.Email).Count();
             ViewBag.announcementCount = context.Announcements.Count();
             ViewBag.skillCount = context.Skills.Count();
 

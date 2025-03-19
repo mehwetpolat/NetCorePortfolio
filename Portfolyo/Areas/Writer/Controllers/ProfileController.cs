@@ -50,6 +50,7 @@ namespace Portfolyo.Areas.Writer.Controllers
 
             user.Name = p.Name;
             user.Surname = p.SurName;
+            user.PasswordHash = _userManager.PasswordHasher.HashPassword(user, p.Password);
 
             var result = await _userManager.UpdateAsync(user);
             if(result.Succeeded)

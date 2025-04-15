@@ -6,9 +6,6 @@ namespace Portfolyo.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.name = "Dashboard";
-            ViewBag.name1 = "İstatistikler";
-            ViewBag.name2 = "İstatistik Listesi";
             return View();
         }
     }

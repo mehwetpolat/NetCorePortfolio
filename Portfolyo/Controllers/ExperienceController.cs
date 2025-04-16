@@ -1,11 +1,13 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Portfolyo.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ExperienceController : Controller
     {
         ExperienceManager experienceManager = new ExperienceManager(new EfExperienceDal());

@@ -421,8 +421,24 @@
       "PackagePath": "staticwebassets\\Template\\scripts\\purecounter.min.js"
     },
     {
+      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\229d40b9-87f3-41e1-a1a7-57070f4d1855.jpeg",
+      "PackagePath": "staticwebassets\\UserImages\\229d40b9-87f3-41e1-a1a7-57070f4d1855.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\2d8e627a-eb55-43fd-b434-8bca67db9c75.jpeg",
+      "PackagePath": "staticwebassets\\UserImages\\2d8e627a-eb55-43fd-b434-8bca67db9c75.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\9eeeec9b-868d-4106-8835-ef3e81eb3585.jpeg",
+      "PackagePath": "staticwebassets\\UserImages\\9eeeec9b-868d-4106-8835-ef3e81eb3585.jpeg"
+    },
+    {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\abfe41f2-b77d-47bf-a3ce-0ca06efb8855.jpeg",
       "PackagePath": "staticwebassets\\UserImages\\abfe41f2-b77d-47bf-a3ce-0ca06efb8855.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\UserImages\\e4f7c010-77a1-4a56-a1ae-91b5538c3558.jpeg",
+      "PackagePath": "staticwebassets\\UserImages\\e4f7c010-77a1-4a56-a1ae-91b5538c3558.jpeg"
     },
     {
       "Id": "C:\\Users\\mehmet\\Desktop\\Projelerim\\Portfolyo\\Portfolyo\\wwwroot\\argon-dashboard-master\\.gitignore",

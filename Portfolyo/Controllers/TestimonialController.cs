@@ -2,10 +2,12 @@
 using DataAccessLayer.EntityFramework;
 using DataAccessLayer.Migrations;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Portfolyo.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class TestimonialController : Controller
     {
         TestimonialManager testimonialManager = new TestimonialManager(new EfTestimonialDal());

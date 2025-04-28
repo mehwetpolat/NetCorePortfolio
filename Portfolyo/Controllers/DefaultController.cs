@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Portfolyo.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         public IActionResult Index()

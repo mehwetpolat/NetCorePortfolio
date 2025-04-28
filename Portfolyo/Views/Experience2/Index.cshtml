@@ -1,0 +1,67 @@
+﻿@model List<EntityLayer.Concrete.Experience>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-md-6">
+    <div class="p-2">
+        <button type="button" id="btngetlistall" class="btn btn-outline-primary">Verileri Getir</button>
+        <button type="button" id="btnadduser" class="btn btn-outline-info">Kaydet</button>
+    </div>
+</div>
+
+
+<div class="p-2" id="listexperience">Veri Getir</div>
+
+<div class="col-md-12">
+    <input type="text" class="form-control" id="inpname" placeholder="Ad" />
+    <br />
+    <input type="text" class="form-control" id="inpdate" placeholder="Tarih" />
+</div>
+
+@section Scripts
+{
+    <script>
+        $("#btngetlistall").click(function () {
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "Get",
+                url: "/Experience2/ListExperience/",
+
+                success: function (funk) {
+                    let values = jQuery.parseJSON(funk);
+                    console.log(values);
+
+                    let htmlst = "<table class=table table-bordered> <tr> <th> ID </th> <th> Başlık </th> <th> Tarih </th> </tr>";
+                    $.each(values, (index, value) => {
+                        htmlst += `<tr> <td>${value.ExperienceId} </td> <td> ${value.ExperienceName} </td> <td> ${value.ExperienceDate} </td> </tr>`
+                    });
+                    htmlst += "</table>";
+                    $("#listexperience").html(htmlst);
+                }
+            });
+        });
+
+        $("#btnadduser").click(function () {
+            let values = {
+                ExperienceName: $("#inpname").val(),
+                ExperienceDate: $("#inpdate").val()
+            };
+
+            $.ajax({
+                type: "Post",
+                url: "/Experience2/AddExperience/",
+                data: values,
+                success: function (funk1) {
+                    let result = jQuery.parseJSON(funk1);
+                    alert(result.ExperienceName + "Başarılı bir şekilde eklendi");
+                }
+            });
+        });
+
+    </script>
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>

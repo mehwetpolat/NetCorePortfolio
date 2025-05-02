@@ -29,5 +29,19 @@ namespace Portfolyo.Controllers
             var values = JsonConvert.SerializeObject(experience);
             return Json(values);
         }
+
+        public IActionResult GetById(int ExperienceId)
+        {
+            var values = experienceManager.TGetById(ExperienceId);
+            var findValue = JsonConvert.SerializeObject(values);
+            return Json(findValue);
+        }
+
+        public IActionResult DeleteExperience(int id)
+        {
+            var value = experienceManager.TGetById(id);
+            experienceManager.TDelete(value);
+            return NoContent();
+        }
     }
 }

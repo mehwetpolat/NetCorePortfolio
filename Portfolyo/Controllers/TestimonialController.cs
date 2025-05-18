@@ -21,7 +21,7 @@ namespace Portfolyo.Controllers
         {
             var value = testimonialManager.TGetById(id);
             testimonialManager.TDelete(value);
-            return View();
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
@@ -34,6 +34,19 @@ namespace Portfolyo.Controllers
         public IActionResult EditTestimonial(Testimonial testimonial)
         {
             testimonialManager.TUpdate(testimonial);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult AddTestimonial()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddTestimonial(Testimonial testimonial)
+        {
+            testimonialManager.TAdd(testimonial);
             return RedirectToAction("Index");
         }
     }

@@ -1,13 +1,14 @@
 # 🚀 Portfolyo Sitesi
 
 
-Bu proje AcunmedyaAkademi'den mentörüm sayın Murat Yücedağ'ın Udemy platformunda yayınlamış olduğu 28 saatlik eğitiminin final projesidir.
+Bu proje AcunmedyaAkademi'den mentörüm Murat Yücedağ'ın Udemy platformunda yayınlamış olduğu 28 saatlik .Net Core eğitiminin projesidir.
+</br>
+</br>
 
-Portfolyomu içeren detaylı bir web arayüzü.
-</br>
-Admin panelinde tüm veriler için ekleme, silme, güncelleme işlemleri mevcuttur. Admin paneline sadece admin rolüne sahip kullanıcılar erişilebilmektedir.
-</br>
-Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler mevuttur. Yazar hesabı oluşturup giriş yaparak panele erişim sağlanır.
+### Projeye Genel Bakış:
+#### - Kişisel portfolyomu içeren detaylı bir tanıtım web arayüzü.
+#### - Admin panelinde tüm veriler için ekleme, silme, güncelleme işlemleri mevcuttur. Admin paneline sadece admin rolüne sahip kullanıcılar tarafından erişilebilmektedir.
+#### - Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler mevuttur. Yazar hesabı oluşturup giriş yaparak panele erişim sağlanır.
 </br>
 
 ---
@@ -48,22 +49,24 @@ Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler me
 --- 
 
 
-## 💫 Projeye Genel Bakış 
+## 💫 Projeyle İlgili Görseller
 
 ### 🏠 Porfolyo Web Sitesi 
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/uihome.png" width="800">
 
-### 🏠 Yazar Paneli 
-
-<img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerdashboard.png" width="800">
-
-### 🏠 Admin Paneli 
+### 👥 Admin Paneli 
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/admindashboard.png" width="800">
 
+### 📝 Yazar Paneli 
 
-### 👥 Admin Paneline Ait Tüm Görseller
+<img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerdashboard.png" width="800">
+
+</br>
+</br>
+
+### Admin Paneline Ait Tüm Görseller
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/admindashboard.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/admindashboard1.png" width="800">
@@ -76,7 +79,10 @@ Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler me
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/adminsubcontact.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/adminajax.png" width="800">
 
-### 👥 Yazar Paneline Ait Tüm Görseller
+</br>
+</br>
+
+### Yazar Paneline Ait Tüm Görseller
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerlogin.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerregister.png" width="800">
@@ -87,7 +93,10 @@ Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler me
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerannouncement.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/writerprofile.png" width="800">
 
-### 👥 Web Siteye Ait Tüm Görseller
+</br>
+</br>
+
+### Web Siteye Ait Tüm Görseller
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/uihome.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/uiabout.png" width="800">
@@ -97,7 +106,9 @@ Yazar paneli için mesajlaşma, bildirimler ve duyurular ile ilgili işlemler me
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/uitestimonial.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/uicontact.png" width="800">
 
-### 👥 Hata Sayfaları
+</br>
+
+### Hata Sayfaları
 
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/admin404.png" width="800">
 <img src="https://raw.githubusercontent.com/mehwetpolat/NetCorePortfolio/refs/heads/master/Portfolyo/wwwroot/Photos/admin401.png" width="800">

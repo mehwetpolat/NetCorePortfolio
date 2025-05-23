@@ -30,7 +30,7 @@ namespace Portfolyo.Controllers
             return PartialView();
         }
         [HttpPost]
-        public PartialViewResult SendMessage(Message message)
+        public IActionResult SendMessage(Message message)
         {
             MessageManager messageManager = new MessageManager(new EfMessageDal());
 
@@ -39,7 +39,7 @@ namespace Portfolyo.Controllers
 
             messageManager.TAdd(message);
 
-            return PartialView();
+            return RedirectToAction("Index");
         }
     }
 }

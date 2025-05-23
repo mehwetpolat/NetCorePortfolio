@@ -16,7 +16,7 @@ namespace DataAccessLayer.Concrete
             optionsBuilder.UseSqlServer("Server=MEHMET\\SQLEXPRESS;initial catalog=PortfolyoDb; integrated security=true");
         }
 
-
+        // Server=104.247.167.202\\MSSQLSERVER2022:0;database=mehm5614_PortfolyoDb; user=mehm5614_mehm5614;password=334788Jan%
         public DbSet<About> Abouts { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Experience> Experiences { get; set; }
